@@ -50,3 +50,30 @@ else
 quindi il giro è: ip esterno -> gateway mac con ip esterno -> ip esterno=ipGateway nope-> lo lancia su internet
 
 ARP protocollo di livello 3 che funziona nel livello locale. Ip lavore l'affuori si occupa di instradare il pacchetto 
+
+# layer 3
+il livello 3 è un po' come il GPS
+CARATTERISTICHE: 
+* Connectionless: "non ci teniamo la manina", partenza e destinazione hanno più vie percorribili
+* Best Effort: "se non arrivo almeno ci ho provato"
+* Media Independence: il protocollo gira su qualunque mezzo di trasmissione
+
+prima IP era adottato nelle WAN esclusivamente, poi anche nelle LAN(1996)ù
+l'indirizzo IP è LOGICO e GERARCHICO
+
+### PROTOCOLLO ARP
+
+
+## indirizzi speciali
+0.0.0.0/0 (uguale) vuol dire un indirizzo che MATCHA tutti gli indirizzi 
+x.x.1.1/16 (variabile) indirizzo di BROADCAST
+127.0.0.1 (uguale) loopback
+x.x.0.0 (variabile) serve per identificare la sottorete (NON L'HO CAPITO)
+
+internet vuol dire interconnessione di reti collegate remotamente collegate tramite protocollo ip  (=WAN GEOGRAFICA)
+
+
+il passaggio sarebbe creare una INTRANET per avere accesso a INTERNET tramite questo GATEWAY
+
+
+Indirizzamento DIRETTO vs INDIRETTO: nel primo di comunica solo con switch, nel secondo caso si scomoda lo switch
