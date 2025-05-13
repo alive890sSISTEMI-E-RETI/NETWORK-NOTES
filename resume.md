@@ -72,8 +72,24 @@ x.x.0.0 (variabile) serve per identificare la sottorete (NON L'HO CAPITO)
 
 internet vuol dire interconnessione di reti collegate remotamente collegate tramite protocollo ip  (=WAN GEOGRAFICA)
 
-
 il passaggio sarebbe creare una INTRANET per avere accesso a INTERNET tramite questo GATEWAY
-
-
 Indirizzamento DIRETTO vs INDIRETTO: nel primo di comunica solo con switch, nel secondo caso si scomoda lo switch
+
+# RIPASSO
+Colui che assegna le reti pubbliche sono IANA
+indirizzi privati:
+class A: 10.0.0.0 / 8
+class B: 172.[16-31].0.0 / 16
+{
+  class B: 172.16.0.0 / 16
+  class B: 172.17.0.0 / 16
+  ...
+  class B: 172.31.0.0 / 16
+}
+class C: 192.168.[0-255].0 /24
+
+## indirizzo di broadcast, di rete:
+
+indirizzo di bradcast è l'ultimo ip di una subnet
+indirizzo di rete è il primo della subnet
+
