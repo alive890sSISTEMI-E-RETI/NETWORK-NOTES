@@ -93,3 +93,13 @@ class C: 192.168.[0-255].0 /24
 indirizzo di bradcast è l'ultimo ip di una subnet
 indirizzo di rete è il primo della subnet
 
+# 19/05/2025
+il router blocca/argina i domini di broadcast
+se la sottorete è segmentata con uno switch il dominio di collisione coincide con host che comunica con il suo relativo host, gli altri sono esclusi
+
+Per essere un router basta essere un pc con due schede di rete o più
+(o un dispositivo apposito)
+
+quante porte ha un router? tipicamente 4
+
+resume: VLSM, caratteristiche del router
